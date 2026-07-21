@@ -934,7 +934,7 @@ footer {
 }
 
 .reviews-container{
-  animation: appear 10s linear;
+  animation: appear 5s linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
