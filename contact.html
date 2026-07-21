@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>CONTACT US</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Titan Barbell Logo">
+    </div>
+    <div class="navbar">
+      <nav>
+        <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+<a href="contact.html" class="register-btn">REGISTER</a>
+
+<button class="hamburger" id="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  </header>
+
+     <!-- Form -->
+      <main class="contact">
+    <div class="panel">
+      <div class="panel-label">REGISTER NOW</div>
+
+      <form id="contact-form">
+        <div class="field">
+          <label for="name">Full name <span class="req">*</span></label>
+          <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+        </div>
+
+        <div class="row-2">
+          <div class="field">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number <span class="req">*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="080X XXX XXXX" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Message <span class="req">*</span></label>
+          <textarea id="message" name="message" placeholder="Tell us what you're looking for — membership plans, personal training, class times..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send message</button>
+        <p class="form-note">We usually reply within one business day.</p>
+        <div id="form-status">Message received — we'll get back to you shortly.</div>
+      </form>
+    </div>
+
+    <!-- Side info -->
+    <div class="side">
+
+      <div class="info-card">
+        <h3>Visit the gym</h3>
+        <p class="info-line">Titan Barbell Fitness Studio</p>
+        <p class="info-line">123 Fitness Avenue</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Call us</h3>
+        <p class="info-line">+xxx xxx xxx xxxx</p>
+        <p class="info-line muted">Front desk, 8am – 8pm daily</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Opening hours</h3>
+        <ul class="hours-list">
+          <li><span>Mon – Fri</span><span>5:00 AM – 10:00 PM</span></li>
+          <li><span>Saturday</span><span>7:00 AM – 9:00 PM</span></li>
+          <li><span>Sunday</span><span>9:00 AM – 6:00 PM</span></li>
+        </ul>
+      </div>
+
+      <div class="whatsapp-card">
+        <h3>Prefer WhatsApp?</h3>
+        <p>Chat with us directly — great for quick questions about pricing or trial sessions.</p>
+       <a href="https://wa.me/YOURNUMBER" target="_blank" class="whatsapp-btn">
+       <img src="images/whatsapp-logo.png" alt="WhatsApp Logo" class="whatsapp-logo">
+     Chat on WhatsApp
+       </a>
+      </div>
+</main>
+ 
+ <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Titan Barbell. All rights reserved.</p>
+  </footer>
+</body>
+</html>
