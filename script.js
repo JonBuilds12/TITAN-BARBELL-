@@ -55,3 +55,10 @@ const navbar = document.querySelector('.navbar');
 hamburger.addEventListener('click', function() {
   navbar.classList.toggle('active');
 });
+// Close navbar when a link is clicked
+const navLinks = document.querySelectorAll('nav ul li a');
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navbar.classList.remove('active');
+  });
+});

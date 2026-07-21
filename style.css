@@ -148,7 +148,7 @@ body {
   position: absolute;
   top: 18%;
   right: 32%;
-  width: clamp(300px, 26vw, 700px);
+  width: clamp(300px, 28vw, 1500px);
   height: auto;
   z-index: 1;
   -webkit-mask-image: linear-gradient(to bottom, black 25%, transparent 100%);
@@ -160,7 +160,7 @@ mask-image: linear-gradient(to bottom, black 25%, transparent 100%);
   left: 6%;
   top: 28%;
   max-width: 45%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: white;
   letter-spacing: 1px;
