@@ -934,7 +934,7 @@ footer {
 }
 
 .story-cards-container{
-  animation: appear 5s linear;
+  animation: appear 1s linear;
   animation-timeline: view();
    animation-range: entry 0% cover 40%;
 }
@@ -951,7 +951,7 @@ footer {
 }
 
 .reviews-container{
-  animation: appear 5s linear;
+  animation: appear 1s linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
@@ -968,7 +968,7 @@ footer {
 }
 
 .services-container{
-  animation: appear 5s linear;
+  animation: appear 1s linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
