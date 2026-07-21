@@ -87,9 +87,9 @@ nav ul li a:hover {
     display: flex;
   }
   .hero-text{
-    font-size: 3rem;
+    font-size: 1rem;
   }
-}
+
 
   .navbar {
     display: none;
@@ -124,6 +124,7 @@ nav ul li a:hover {
     display: none;
   }
 }
+
 
 /* HERO */
 .hero {
