@@ -89,7 +89,7 @@ nav ul li a:hover {
   hero-title {
     font-size: 0.8rem;
   }
-}
+
 
   .navbar {
     display: none;
@@ -124,6 +124,7 @@ nav ul li a:hover {
     display: none;
   }
 }
+
 
 /* HERO */
 .hero {
