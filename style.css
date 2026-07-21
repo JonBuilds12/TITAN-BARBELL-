@@ -87,8 +87,8 @@ nav ul li a:hover {
     display: flex;
   }
   @media (max-width: 768px) {
-  .hero-title {
-    font-size: 3.5rem;
+  .hero-text{
+    font-size: 3rem;
   }
 }
 
