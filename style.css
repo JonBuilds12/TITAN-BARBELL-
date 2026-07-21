@@ -86,10 +86,11 @@ nav ul li a:hover {
   .hamburger {
     display: flex;
   }
+  @media (max-width: 768px) {
   .hero-title {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
-
+}
 
   .navbar {
     display: none;
@@ -125,7 +126,6 @@ nav ul li a:hover {
   }
 }
 
-
 /* HERO */
 .hero {
   width: 100%;
@@ -160,24 +160,12 @@ body {
 mask-image: linear-gradient(to bottom, black 25%, transparent 100%);
 }
 
-.hero-text{
+.hero-text {
   position: absolute;
   left: 6%;
   top: 28%;
   max-width: 45%;
-  font-size: 2.8rem;
-  font-weight: bold;
-  color: white;
-  letter-spacing: 1px;
-  z-index: 2;
-}
-
-.hero-title{
-  position: absolute;
-  left: 6%;
-  top: 28%;
-  max-width: 45%;
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: bold;
   color: white;
   letter-spacing: 1px;
@@ -256,7 +244,7 @@ mask-image: linear-gradient(to bottom, black 25%, transparent 100%);
   }
 }
 
-.hero-title {
+.hero-text {
   animation: fadeInLeft 1s ease-out forwards;
 }
 
