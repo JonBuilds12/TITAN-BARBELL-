@@ -86,7 +86,7 @@ nav ul li a:hover {
   .hamburger {
     display: flex;
   }
-  hero-text {
+  .hero-title {
     font-size: 0.5rem;
   }
 
