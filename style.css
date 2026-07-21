@@ -86,7 +86,6 @@ nav ul li a:hover {
   .hamburger {
     display: flex;
   }
-  @media (max-width: 768px) {
   .hero-text{
     font-size: 3rem;
   }
